@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<body>
+    <h1>HTML Registration Form</h1>
+    <hr></hr>
+    <form action="#">
+      <label for="username">username</label>
+        <input type="text" id="username" value="usha" >
+        <!-- how to text is inly for read 
+        <input type="text" id="username" value="usha" readonly >
+        <label for="username">username</label>
+        how to disable the edit text
+        <input type="text" id="username" value="usha" readonly disabled > -->
+
+        <br> </br>
+        <label for ="datemax">Enter a date Before 1979-01-01 :</label>
+        <input 
+        type="date" 
+        id="datemax"
+        max="1979-12-31">
+
+
+        <br> </br>
+        <label for ="datemin">Enter a date after 2002-01-01 :</label>
+        <input 
+        type="date" 
+        id="datemin"
+        max="2000-12-31">
+
+        <br> </br>
+        <label for ="Quantity (between 1 and 5)">Quantity (between 1 and 5):</label>
+        <input type="number" 
+        id="Quantity"
+        min="1"
+        max="5"
+         >
+        <br> </br>
+        <label for =" files">select files:</label>
+        <input type="file" id=" files" name="file" multiple>   
+        <br> </br>
+
+        <lebel for ="fname">First name:</lebel><br>
+        <input type="text" id = "faname" name ="faname"autofocus autocomplete="off"> <br> 
+
+    <input list="browser" name="browser">
+    <datalist id="browser">
+        <option value="Internet Explore">
+        <option value="Firebox">
+        <option value="Chrome ">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    </form>
+</body>
+</html>
