@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- <li></li>
+            <div class="content">
+                <p class="desc"></p>
+                <p></p>
+            </div>
+            -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .topic {
+            background-color: rgb(167, 223, 255);
+        }
+
+        .topic>li {
+            padding: 15px;
+            font-size: 25px;
+            font-weight: bold;
+            color: red;
+        }
+
+        .subtopic>li {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 0 10px;
+            color: rgb(255, 153, 0);
+        }
+
+        .content {
+            padding: 5px 15px;
+            margin-right: 20px;
+            border-radius: 15px;
+            box-shadow: 8px 8px 10px rgb(186, 186, 255);
+            background-color: rgb(192, 232, 255);
+        }
+
+        .desc {
+            font-size: 25px;
+            font-size: medium;
+            color: rgb(255, 0, 132);
+        }
+    </style>
+</head>
+
+<body>
+    <ol class="topic">
+        <li>First web page</li>
+        <div class="content">
+            <code>
+            <html>
+                <head>
+                    <title>demo</title>
+                </head>
+                <body>
+                    <h1>this is first html page</h1>
+                </body>
+            </html>
+        </code>
+        </div>
+        <li>basic tag</li>
+        <ol class="subtopic">
+            <li>heading tag</li>
+            <div class="content">
+                <p class="desc">We use heading tag for different heading size.for that we use h1 h2 h3 h4 h5 h6 tag</p>
+                <h1>heading 1</h1>
+                <h2>heading 2</h2>
+                <h3>heading 3</h3>
+                <h4>heading 4</h4>
+                <h5>heading 5</h5>
+                <h6>heading 6</h6>
+            </div>
+            <li>paragraph tag</li>
+            <div class="content">
+                <p class="desc">p tag is use for display paragraph</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nesciunt illum, excepturi libero
+                    repellat expedita repudiandae vitae molestiae earum doloribus voluptate quidem consectetur maxime ut
+                    dolorem velit necessitatibus dicta molestias.</p>
+            </div>
+            <li>line break</li>
+            <div class="content">
+                <p class="desc">for line breaking we use the br tag</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Deleniti nesciunt illum, excepturi
+                    libero repellat expedita repudiandae vitae molestiae earum doloribus voluptate quidem consectetur
+                    <br>maxime ut dolorem velit necessitatibus dicta molestias.</p>
+            </div>
+            <li>center the content</li>
+            <div class="content">
+                <p class="desc">for centering the content we use center tag</p>
+                <center>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nesciunt illum, excepturi
+                        libero repellat expedita repudiandae vitae molestiae earum doloribus voluptate quidem
+                        consectetur maxime ut dolorem velit necessitatibus dicta molestias.</p>
+                </center>
+            </div>
+            <li>horizontal rule</li>
+            <div class="content">
+                <p class="desc">the hr tag is use for adding horizontal rule in page.</p>
+                <p>pankaj</p>
+                <hr>
+                <p>dukare</p>
+            </div>
+            <li>Preserved tag</li>
+            <div class="content">
+                <p class="desc">pre tag is used for display content in preserved format</p>
+                <pre>
+                    pankaj                      dukare
+                            pgdac iacd pune
+                </pre>
+            </div>
+            <li>nobreakingspace</li>
+            <div class="content">
+                <p class="desc">that use for add normal space</p>
+                <p>pankaj &nbsp; dukare</p>
+            </div>
+        </ol>
+        <li>core atrribute</li>
+        <div class="content">
+            <p class="desc">Thre are different core attributes use in html</p>
+            <ol>
+                <li>id</li>
+                <p>used for unique identify element.</p>
+                <li>title</li>
+                <p>used for showing tooltip and title to tag</p>
+                <li>class</li>
+                <p>used to define class for css</p>
+                <li>style</li>
+                <p>used for adding inline css</p>
+            </ol>
+            <p class="desc">Thre are different generic attributes use in html</p>
+            <ol>
+               <table border="1" style="border-collapse: collapse;">
+                <tr>
+                    <th>No.</th>
+                    <th>name</th>
+                    <th>value</th>
+                    <th>function</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>align</td>
+                    <td>right,left,center</td>
+                    <td>align in horizontal</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>valign</td>
+                    <td>top,bottom,middle,middle</td>
+                    <td>verticle alignment</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>bgcolor</td>
+                    <td>color name</td>
+                    <td>add background color</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>background</td>
+                    <td>url('path')</td>
+                    <td>add background image</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>width</td>
+                    <td>user defined</td>
+                    <td>add horizontal length</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>height</td>
+                    <td>user defined</td>
+                    <td>add verticle length</td>
+                </tr>
+               </table>
+            </ol>
+        </div>
+        <li>html formating tag</li>
+        <ol class="subtopic">
+            <li>bold text</li>
+            <div class="content">
+                <p class="desc"> b tag is used for diplay text in bold format.</p>
+                <p><b>pankaj</b></p>
+            </div>
+
+            <li>italic text</li>
+            <div class="content">
+                <p class="desc">i tag is used for diplay text in italic format.</p>
+                <p><i>pankaj</i></p>
+            </div>
+
+            <li>underline text</li>
+            <div class="content">
+                <p class="desc">u tag is used for diplay text in undeline format.</p>
+                <p><u>pankaj</u></p>
+            </div>
+            
+            <li>strike text</li>
+            <div class="content">
+                <p class="desc">using strike tag we add strike on text.</p>
+                <p><strike>pankaj</strike></p>
+            </div>
+            
+            <li>monospaced text</li>
+            <div class="content">
+                <p class="desc">tt tag is used for diplay text in monospaced format.</p>
+                <p><tt>pankaj</tt></p>
+            </div>
+            
+            <li>superscript text</li>
+            <div class="content">
+                <p class="desc">sup tag is used for diplay text in superscript format.</p>
+                <p>10 <sup>2</sup></p>
+            </div>
+            
+            <li>subscript text</li>
+            <div class="content">
+                <p class="desc">sub tag is used for diplay text in subscript format.</p>
+                <p>log<sub>10</sub>2000</p>
+            </div>
+            
+            <li>insert text</li>
+            <div class="content">
+                <p class="desc">ins tag is used for diplay text in insert format.</p>
+                <p><ins>pankaj</ins></p>
+            </div>
+            
+            <li>delete text</li>
+            <div class="content">
+                <p class="desc">del tag is used for diplay text in delete format.</p>
+                <p><del>pankaj</del></p>
+            </div>
+            
+            <li>large text</li>
+            <div class="content">
+                <p class="desc">big tag is used for diplay text in larger format.</p>
+                <p><big>pankaj</big></p>
+            </div>
+            <li>small text</li>
+            <div class="content">
+                <p class="desc">small tag is used for diplay text in smaller format.</p>
+                <p><small>pankaj</small></p>
+            </div>
+            
+        </ol>
+        
+
+        <li>phrase tag</li>
+        <li>html images</li>
+        <li>html table</li>
+        <li>html list</li>
+        <li>html link</li>
+        <li>html frameset</li>
+        <li>grouping tag</li>
+        <li>html form</li>
+        <li>html multimedia</li>
+        <li>marque</li>
+
+        </ul>
+</body>
+
+</html>
